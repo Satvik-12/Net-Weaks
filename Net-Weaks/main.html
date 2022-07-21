@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome To Network Tweaks</title>
+    <style>
+        body {
+            font-family: 'Syne', sans-serif;
+        }
+        
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .image-container {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+
+<body class="w3-white">
+
+    <!-- Image and name container. Change to your picture here. -->
+    <div class="image-container">
+        <img src="/images/Net-Weaks.jpg" class="w3-margin" alt="Net-Weaks" max-width="100%" height="150px" style="border-radius: 50%;">
+
+        <!-- Content. Add your bio here. -->
+        <div class="w3-margin">
+            <h2 class="w3-text-black"><strong>NET-WEAKS</strong></h2>
+            <p>Optimize Your Network With Us.</p>
+        </div>
+
+        <!-- Links section 1. Replace the # inside of the "" with your links. -->
+        <div class="links-container">
+
+            <label for="tweak-select">Choose Any Tweak:</label>
+
+            <form>
+                <select name="tweaks" id="select_option">
+            <option value="">--Please Choose An Option--</option>
+            <option value="https://drive.google.com/file/d/1718z2GZ4iVWxELusEMPeSqOf9PGXOEv3/view?usp=sharing">Properties Of Your Network Adapter</option>
+            <option value="https://drive.google.com/file/d/1LrXsx5sKDXrhWdEN4S4CvgnodjEVAOmi/view?usp=sharing">Reset Your Firewall</option>
+            <option value="https://drive.google.com/file/d/1xmlAIuvSvuwBj3o_XJOW_GHRjL6URBkp/view?usp=sharing">Reset Your NetBIOS Cache</option>
+            <option value="https://drive.google.com/file/d/14S_Rl7JUVjAnR5gFxUxexU03ShINQ0Ng/view?usp=sharing">Flush Your DNS</option>
+            <option value="https://drive.google.com/file/d/1D6cVBwZv1PzjuAoq8lDAYJJvdvKBkIPA/view?usp=sharing">Reset Your ARP-Route Table</option>
+            <option value="https://drive.google.com/file/d/1HgsV82iykvVsIBljFMQYxRBxa-_qo281/view?usp=sharing">Disable & Enable Your Network Adapters</option>
+            <option value="https://drive.google.com/file/d/11uIJbBS-c65JJSM7eXT3h870_Yohpp91/view?usp=sharing">Clear Hosts File</option>
+            <option value="https://drive.google.com/file/d/11cj3q1y26rSrEhbBjaA8W_lvSy_YhOQ_/view?usp=sharing">Request Re-Lease</option>
+            <option value="https://drive.google.com/file/d/1yxip80I2tqI8QD0QdGdp65IO3gVAV24u/view?usp=sharing">Request New IP From DCHP Server</option>
+            <option value="https://drive.google.com/file/d/165WoS2NES4iMcNcy3826JI3qMC2R_vo_/view?usp=sharing">Change DNS To Cloudflare's DNS *</option>
+            <option value="https://drive.google.com/file/d/1uXPBTKAWTv2RVDYRvxHQm8rI3IN_-GjF/view?usp=sharing">Change DNS To Goodle's DNS **</option>
+            <option value="https://drive.google.com/file/d/1ilfQwzxpJGm_srG_-RymFNcpUYQlgFkm/view?usp=sharing">Change DNS To Router's DNS ***</option>
+            </select>
+                <p></p>
+                <input type="submit" value="Submit" onclick="window.open(select_option.value,'newtab'+select_option.value)">
+            </form>
+        </div>
+
+        <div align="center">
+            <p>* = Cloudflare's DNS is 1.1.1.1</p>
+            <p>** = Google's DNS is 8.8.8.8 or 8.8.4.4</p>
+            <p>*** = Router's DNS is set automatically.</p>
+
+        </div>
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content" style="max-width:390px" id="contact">
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m12 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i> India<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9175694787<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: satviksherekar108@gmail.com<br>
+            </div>
+</body>
+
+</html>
